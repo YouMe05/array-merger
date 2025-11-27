@@ -1,0 +1,27 @@
+{
+  "name": "array-merger",
+  "version": "1.0.0",
+  "description": "Merges three arrays without using a built-in sort function.",
+  "main": "mergeCollections.ts",
+  "scripts": {
+    "start": "ts-node mergeCollections.ts",
+    "test": "jest"
+  },
+  "keywords": [
+    "typescript",
+    "algorithm",
+    "merge"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.5"
+  },
+  "type": "commonjs"
+}
